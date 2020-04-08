@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-size:12px; font-family:"微软雅黑";  background:url('1.jpg') no-repeat; background-size: cover;}                   /*全局控制*/
+body,form,input,h1,p{padding:0; margin:0; border:0;}          /*重置浏览器的默认样式*/
+
+
+.form{
+	width:400px;
+	height:400px;
+	/*display: inline-block;                     !*使表单在浏览器中居中*!*/
+	float: left;
+}
+.main {
+	width: 1000px;
+
+	margin: 10px auto;
+}
+h2{                                       /*控制标题*/
+	text-align:center;
+
+}     
+p{margin-top:20px;}
+p span{
+	display: inline-block;
+	width: 65px;
+	height: 20px;
+	text-align: right;
+}
+p input{
+	width:100px;
+	height:20px;
+	border:1px solid #d4cdba;
+    padding:2px;
+	/*设置输入框与输入内容之间拉开一些距离*/
+}
+
+
+button {
+	display: block;
+	width: 30%;
+	height: 30px;
+	font-size: 1.2em;
+	margin-top:20px;
+	margin-left:90px;
+	letter-spacing: 10px;
+	border: 1px solid rgb(22, 160, 93);
+	color: rgb(22, 160, 93);
+	background: #fff;
+	cursor: pointer;
+}
+
+.content {
+	/*display: inline-block;*/
+	float: left;
+	border: 1px solid #f2dede;
+
+}
+.content th {
+	width: 100px;
+	background-color: #9cb945;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid red;
+}
+.content td {
+	width: 100px;
+	background-color: #9cb945;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid red;
+}
+a {
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 10px;
+}

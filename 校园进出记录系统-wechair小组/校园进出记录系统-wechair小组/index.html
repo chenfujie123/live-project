@@ -1,0 +1,33 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>学生信息登记表</title>
+<link rel="stylesheet" href="recordForIntry/style.css" type="text/css">
+</head>
+<body>
+    <div class="main">
+        <form class="form" id="form">
+            <h2  class="i1">学生信息登记表</h2>
+            <p><span>真实姓名：</span><input type="text" name="firstname" class="mr-id" id="name">（必须填写，只能输入汉字）</p>
+            <p><span>学号：</span><input type="text" name="firstname" class="mr-id" id="id">（必须填写）</p>
+            <p><span>进入时间：</span><input type="text" name="firstname" class="mr-id" id="inttime">（必须填写）</p>
+            <p><span>离开时间：</span><input type="text" name="firstname" class="mr-id" id="outtime">（必须填写）</p>
+            <div class="input-group btn-group">
+                <button id="submit">记录信息</button>
+            </div>
+            <a href="newIntry.html">查看学生最新进出记录</a>
+        </form>
+        <table class="content" id="content"  cellspacing="0">
+            <thead>
+                <th>学号</th>
+                <th>姓名</th>
+                <th>进入时间</th>
+                <th>出去时间</th>
+            </thead>
+        </table>
+
+    </div>
+<script type="application/javascript" src="recordForIntry/in-out.js"></script>
+</body>
+</html>
